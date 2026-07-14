@@ -13,7 +13,7 @@ Mỗi lab được lưu trong một thư mục riêng dưới `lab_file/`, đặ
 ## Cách dùng
 
 1. Mở file `.pkt` bằng Cisco Packet Tracer.
-2. Đọc phần ghi chú/topology (nếu có) trong từng thư mục lab.
+2. Đọc phần ghi chú/topology trong từng thư mục lab.
 3. Thực hành lại theo yêu cầu đề bài của lab đó.
 
 ## Mục tiêu
