@@ -24,6 +24,12 @@ interface FastEthernet0/24
  switchport access vlan 99
  switchport mode access
 ```
+- Cấu hình trunk port
+
+```
+interface FastEthernet0/23
+ switchport mode trunk
+```
 
 ## Router 
 - Sử dụng Router all a stick. Dùng để tạo các subinterface
@@ -47,6 +53,12 @@ interface GigabitEthernet0/1.99
 ### Cấu hình trên Server
 
 **- Management dùng IP tĩnh**
+
+<img width="762" height="316" alt="image" src="https://github.com/user-attachments/assets/56dcfebb-295c-458b-9e00-8f92e18cf2ec" />
+
+**- cấu hình Default Gateway**
+
+<img width="713" height="133" alt="image" src="https://github.com/user-attachments/assets/fe3c2ac0-afeb-4d79-aec1-9c05f45c1756" />
 
 **- Tạo pool cho Sales và HR**
 
