@@ -94,11 +94,6 @@ transport input ssh # best practice vì chỉ giới hạn sử dụng SSH thuii
 > Trên Router ISP 
 
 ```
-enable
-configure terminal
-
-hostname ISP
-
 interface GigabitEthernet0/0
  ip address 203.0.113.1 255.255.255.252
  no shutdown
