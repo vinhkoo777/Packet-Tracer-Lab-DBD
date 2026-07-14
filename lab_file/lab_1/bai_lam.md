@@ -90,7 +90,6 @@ transport input ssh # best practice vì chỉ giới hạn sử dụng SSH thuii
 ```
 
 ## Routing 
-**- cấu hình ra ISP**
 
 > Trên Router ISP 
 
