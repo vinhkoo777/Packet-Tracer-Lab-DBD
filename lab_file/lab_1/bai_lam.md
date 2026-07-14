@@ -64,7 +64,7 @@ interface GigabitEthernet0/1.99
 
 <img width="752" height="107" alt="image" src="https://github.com/user-attachments/assets/d058c308-392c-4452-bb7a-e40860770dbf" />
 
-## helper address 
+## Helper address 
 
 ```
 interface GigabitEthernet0/1.10
