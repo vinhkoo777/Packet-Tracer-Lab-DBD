@@ -89,4 +89,28 @@ exec-timeout 5 0
 transport input ssh # best practice vì chỉ giới hạn sử dụng SSH thuiiii
 ```
 
+## Routing 
+**- cấu hình ra ISP **
 
+> Trên Router ISP 
+
+```
+enable
+configure terminal
+
+hostname ISP
+
+interface GigabitEthernet0/0
+ ip address 203.0.113.1 255.255.255.252
+ no shutdown
+
+ip route 192.168.0.0 255.255.0.0 203.0.113.2
+```
+
+> Trên R1
+
+```
+interface GigabitEthernet0/0
+ ip address 203.0.113.2 255.255.255.252
+ no shutdown
+```
