@@ -31,7 +31,7 @@ LAN block: `192.168.100.0/24` -> tự chia VLSM theo host yêu cầu
 hostname, domain-name, RSA 2048, local user, enable secret, `login local`
 
 ## Routing
-- ISP có route về toàn bộ LAN; R1 có default route → ISP
+- ISP có route về toàn bộ LAN; R1 có default route -> ISP
 
 ## ACL (Extended)
 | | Sales | HR | Management |
