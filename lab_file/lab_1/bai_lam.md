@@ -73,3 +73,20 @@ interface GigabitEthernet0/1.10
 interface GigabitEthernet0/1.20
  ip helper-address 192.168.100.105
 ```
+
+## SSH 
+
+```
+ip domain name vinhlab.com
+crypto key generate rsa # nhập 2048
+
+enable secret ccna
+username vinh secret ccna
+ip ssh version 2
+line vty 0 15
+login local
+exec-timeout 5 0
+transport input ssh # best practice vì chỉ giới hạn sử dụng SSH thuiiii
+```
+
+
