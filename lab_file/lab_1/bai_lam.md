@@ -41,3 +41,23 @@ interface GigabitEthernet0/1.99
  encapsulation dot1Q 990
  ip address 192.168.100.97 255.255.255.240
 ```
+
+## DHCP 
+
+### Cấu hình trên Server
+
+**- Management dùng IP tĩnh**
+
+**- Tạo pool cho Sales và HR**
+
+<img width="752" height="107" alt="image" src="https://github.com/user-attachments/assets/d058c308-392c-4452-bb7a-e40860770dbf" />
+
+## helper address 
+
+```
+interface GigabitEthernet0/1.10
+ ip helper-address 192.168.100.105
+
+interface GigabitEthernet0/1.20
+ ip helper-address 192.168.100.105
+```
