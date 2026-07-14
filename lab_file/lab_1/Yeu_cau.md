@@ -1,5 +1,5 @@
 # Lab #1 – Branch Office Deployment
-⭐⭐⭐☆☆ | ~45–60 phút | Build từ đầu, không có lỗi cài sẵn
+⭐⭐⭐☆☆ | Build từ đầu, không có lỗi cài sẵn
 
 **Cover:** IPv4, VLSM, VLAN, Access/Trunk, Router-on-a-Stick, Static Route, DHCP, SSH, Extended ACL, CDP/LLDP
 
