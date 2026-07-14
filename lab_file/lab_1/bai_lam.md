@@ -24,3 +24,20 @@ interface FastEthernet0/24
  switchport access vlan 99
  switchport mode access
 ```
+
+## Router 
+- Sử dụng Router all a stick. Dùng để tạo các subinterface
+
+```
+interface GigabitEthernet0/1.10
+ encapsulation dot1Q 10
+ ip address 192.168.100.1 255.255.255.192
+
+interface GigabitEthernet0/1.20
+ encapsulation dot1Q 20
+ ip address 192.168.100.65 255.255.255.224
+
+interface GigabitEthernet0/1.99
+ encapsulation dot1Q 990
+ ip address 192.168.100.97 255.255.255.240
+```
