@@ -107,4 +107,6 @@ ip route 192.168.0.0 255.255.0.0 203.0.113.2
 interface GigabitEthernet0/0
  ip address 203.0.113.2 255.255.255.252
  no shutdown
+
+ip route 0.0.0.0 0.0.0.0 203.0.113.1
 ```
