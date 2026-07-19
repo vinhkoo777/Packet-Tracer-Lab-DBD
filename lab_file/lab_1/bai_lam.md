@@ -144,3 +144,5 @@ deny ip any any
 int g0/1.20
 ip access-group HR in
 ```
+
+## CDP
