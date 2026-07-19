@@ -148,6 +148,6 @@ ip access-group HR in
 ## CDP
 
 ```
-inr g0/1
+int g0/1
 cdp en
 ```
