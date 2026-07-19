@@ -124,20 +124,16 @@ ip route 0.0.0.0 0.0.0.0 203.0.113.1
 ```
 conf t 
 ip access-list extended Sales
-
 permit icmp 192.168.100.0 0.0.0.63 host 192.168.100.105
 permit tcp 192.168.100.0 0.0.0.63 host 192.168.100.1 eq 22
 permit tcp 192.168.100.0 0.0.0.63 host 192.168.100.105 eq 80
 deny icmp 192.168.100.0 0.0.0.63 192.168.100.64 0.0.0.31
 deny ip any any
-
 int g0/1.10
 ip access-group Sales in
 
-
 access-list extended Management
 permit ip any any 
-
 int g0/1.99
 ip access-group Management in
 
