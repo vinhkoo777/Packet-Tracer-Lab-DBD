@@ -150,4 +150,6 @@ ip access-group HR in
 ```
 int g0/1
 cdp en
+
+# một lí do nào đó khiến sw tui biết được nei của nó là R1 mà ko R1 lại ko biết switch 
 ```
