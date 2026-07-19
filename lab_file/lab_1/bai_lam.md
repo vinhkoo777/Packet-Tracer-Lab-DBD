@@ -12,6 +12,9 @@
 - Tạo Vlan trên Switch
 
 ```
+conf t 
+hostname SW1
+
 interface FastEthernet0/1
  switchport access vlan 10
  switchport mode access
@@ -35,6 +38,9 @@ interface FastEthernet0/23
 - Sử dụng Router all a stick. Dùng để tạo các subinterface
 
 ```
+conf t
+hostname R1
+
 interface GigabitEthernet0/1.10
  encapsulation dot1Q 10
  ip address 192.168.100.1 255.255.255.192
@@ -109,4 +115,14 @@ interface GigabitEthernet0/0
  no shutdown
 
 ip route 0.0.0.0 0.0.0.0 203.0.113.1
+```
+
+## ACL
+
+- Trong global config của **R1** thực hiện các lệnh dưới 
+
+```
+
+
+
 ```
