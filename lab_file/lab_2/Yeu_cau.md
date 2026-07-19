@@ -22,14 +22,10 @@
 ### ISP
 - 1 Router
 
----
-
 ## WAN
 
 - ISP: `203.0.113.1/30`
 - HQ Edge: `203.0.113.2/30`
-
----
 
 ## VLAN & VLSM
 
@@ -44,7 +40,6 @@ LAN Block: `10.10.0.0/16`
 |50|Guest|80|
 |99|Management|20|
 
----
 
 ## Layer 2
 
@@ -54,8 +49,6 @@ LAN Block: `10.10.0.0/16`
 - Rapid STP
 - EtherChannel (LACP)
 
----
-
 ## Layer 3
 
 - Inter-VLAN Routing
@@ -63,7 +56,6 @@ LAN Block: `10.10.0.0/16`
 - Default Route
 - Floating Static Route
 
----
 
 ## HSRP
 
@@ -71,7 +63,6 @@ LAN Block: `10.10.0.0/16`
 - R2: Standby
 - Kiểm tra Failover
 
----
 
 ## DHCP & DNS
 
@@ -80,21 +71,15 @@ LAN Block: `10.10.0.0/16`
 - Sales, HR, Guest dùng DHCP
 - Management dùng IP tĩnh
 
----
-
 ## SSH
 
 - SSH trên toàn bộ Router & Switch
 - Không sử dụng Telnet
 
----
-
 ## NAT
 
 - PAT cho toàn bộ người dùng
 - Static NAT cho Web Server
-
----
 
 ## ACL
 
@@ -106,15 +91,11 @@ LAN Block: `10.10.0.0/16`
 | Ping giữa VLAN | ❌ | ❌ | ✅ | ❌ |
 | Internet | ✅ | ✅ | ✅ | ✅ |
 
----
-
 ## Security
 
 - Port Security
 - DHCP Snooping
 - Dynamic ARP Inspection
-
----
 
 ## Monitoring
 
@@ -122,7 +103,6 @@ LAN Block: `10.10.0.0/16`
 - Syslog
 - NTP
 
----
 
 ## Verification Checklist
 
