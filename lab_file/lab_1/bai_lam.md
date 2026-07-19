@@ -146,3 +146,8 @@ ip access-group HR in
 ```
 
 ## CDP
+
+```
+inr g0/1
+cdp en
+```
