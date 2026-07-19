@@ -132,9 +132,15 @@ deny ip any any
 int g0/1.10
 ip access-group Sales in
 
-access-list extended Management
+ip access-list extended Management
 permit ip any any 
 int g0/1.99
 ip access-group Management in
 
+ip access-list extended HR
+permit icmp 192.168.100.0 0.0.0.63 host 192.168.100.105
+deny tcp 192.168.100.64 0.0.0.31 host 192.168.100.65 eq 22
+deny ip any any
+int g0/1.20
+ip access-group HR in
 ```
